@@ -30,7 +30,7 @@ void VCGRARTL__4487a7a16c748171::eval_step() {
             Verilated::debug(1);
             __Vchange = _change_request(vlSymsp);
             Verilated::debug(__Vsaved_debug);
-            VL_FATAL_MT("CGRARTL__4487a7a16c748171.v", 3521, "",
+            VL_FATAL_MT("CGRARTL__4487a7a16c748171.v", 3522, "",
                 "Verilated model didn't converge\n"
                 "- See DIDNOTCONVERGE in the Verilator manual");
         } else {
@@ -55,7 +55,7 @@ void VCGRARTL__4487a7a16c748171::_eval_initial_loop(VCGRARTL__4487a7a16c748171__
             Verilated::debug(1);
             __Vchange = _change_request(vlSymsp);
             Verilated::debug(__Vsaved_debug);
-            VL_FATAL_MT("CGRARTL__4487a7a16c748171.v", 3521, "",
+            VL_FATAL_MT("CGRARTL__4487a7a16c748171.v", 3522, "",
                 "Verilated model didn't DC converge\n"
                 "- See DIDNOTCONVERGE in the Verilator manual");
         } else {
